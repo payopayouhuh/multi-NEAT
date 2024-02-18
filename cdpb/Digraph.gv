@@ -1,0 +1,12 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	"Input cart position" [fillcolor=lightgray shape=circle style=filled]
+	"Input cart    speed" [fillcolor=lightgray shape=circle style=filled]
+	"Input pole_1  angle" [fillcolor=lightgray shape=circle style=filled]
+	"Input pole_2  angle" [fillcolor=lightgray shape=circle style=filled]
+	"Output F" [fillcolor=lightblue style=filled]
+	"Input cart position" -> "Output F" [label=0.89 color=green penwidth=0.27763764381083245 style=solid]
+	"Input cart    speed" -> "Output F" [label=-1.28 color=red penwidth=0.3566562903842754 style=solid]
+	"Input pole_1  angle" -> "Output F" [label=0.03 color=green penwidth=0.10508878685475516 style=solid]
+	"Input pole_2  angle" -> "Output F" [label=1.17 color=green penwidth=0.33367697559513876 style=solid]
+}
